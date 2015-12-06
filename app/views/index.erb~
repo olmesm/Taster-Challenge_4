@@ -6,6 +6,45 @@
   <script src="<%= url("/js/main.js")%>" type="text/javascript" > </script>
 </head>
 <body>
-  <h1>Hello World!</h1>
-</body>
+		<header>
+			<h1>Brollies</h1>
+			<nav class="navigation"> 
+				<ul> 
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./contactus.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>		
+		<main>
+		<article class="bodytext"> 
+			<h3>Welcome</h3>
+			<p>Welcome to Brollies, blah blah blah......</p>
+			<p>We have been going for two years now and we serve the best food in London</p>
+		</article>		
+
+		<section> 
+		
+			<a href="https://www.facebook.com" target="_blank">
+				<img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="hello facebook" height="42" width="42">
+			</a>
+
+		</section>
+
+		<section>
+			<p>
+				Address:
+				1 Main Street
+				Covent Garden
+				EC1 1AJ
+			</p>
+		</section>
+
+		<section>
+			<img src="http://www.bridge67cookeryschool.co.uk/wp-content/uploads/2013/06/gourmet-food.jpg" alt="Good food!" height="300">
+		</section>
+</main>		
+		<footer>Thanks for visiting!</footer>
+
+	</body>
 </html>
