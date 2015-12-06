@@ -1,3 +1,27 @@
-body {
-  background: lightblue;
+body { background: rgba(227, 219, 226, 0.53); }
+
+header{
+	display: block;
+	height: 100px;
+	}
+
+nav ul li { 
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	font-family:monospace; 
+	font-size:20;
+	}
+
+nav { 
+	float: left;
+	}
+
+
+.bodytext {
+	display : block;
 }
+
+main{
+	clear: left;
+	}
